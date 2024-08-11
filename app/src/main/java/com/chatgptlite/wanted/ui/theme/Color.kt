@@ -11,8 +11,12 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 val PrimaryColor = Color(0xFF1DA1F2)
+val Orange80 = Color(0xFFFFA726)        // Orange color
+val LightOrange80 = Color(0xFFFFCC80)   // Light orange color
+val DarkOrange80 = Color(0xFFFF5722)    // Dark orange color
 
 val BackGroundColor = Color(0xFF14171A)
+val BackGroundLightColor = Color(0x00FFFFFF)
 val BackGroundMessageHuman = Color(0xFFE2F0E9)
 val BackGroundMessageGPT = Color(0xFF22252A)
 val ColorTextHuman = Color(0xFF3D3D4E)

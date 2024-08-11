@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "ChatGPT Lite"
+rootProject.name = "Magic Free Chat"
 include ':app'

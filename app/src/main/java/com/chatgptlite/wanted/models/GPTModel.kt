@@ -3,6 +3,7 @@ package com.chatgptlite.wanted.models
 enum class GPTModel(val model: String, val maxTokens: Int, val isChatCompletion: Boolean = false) {
     gpt4("gpt-4", 8192, isChatCompletion = true),
     gpt4o("gpt-4o", 4096, isChatCompletion = true),
+    gpt4oMini("gpt-4o-mini", 4096, isChatCompletion = true),
     gpt4o20240513("gpt-4o-2024-05-13", 4096, isChatCompletion = true),
     gpt4turbo("gpt-4-turbo-2024-04-09", 4096, isChatCompletion = true),
     gpt4turbopreview("gpt-4-turbo-preview", 4096, isChatCompletion = true),

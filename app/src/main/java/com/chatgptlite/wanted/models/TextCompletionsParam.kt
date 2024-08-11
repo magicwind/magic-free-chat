@@ -18,7 +18,7 @@ data class TextCompletionsParam(
     @SerializedName("maxTokens")
     val maxTokens: Int = 2048,
     @SerializedName("model")
-    val model: GPTModel = GPTModel.gpt35Turbo,
+    val model: GPTModel = GPTModel.gpt4oMini,
     @SerializedName("messages")
     val messagesTurbo: List<MessageTurbo> = emptyList(),
 ) {
